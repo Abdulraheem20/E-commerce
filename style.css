@@ -1,3 +1,9 @@
+/* @include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... } */
+/* @media (min-width: 576px) { ... } */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Cairo:wght@600&family=Dancing+Script:wght@700&family=Kumbh+Sans:wght@500;700&family=La+Belle+Aurore&family=Red+Hat+Text:wght@700&family=Roboto:wght@500&display=swap');
 
 /* font-family: 'Kumbh Sans', sans-serif; */
@@ -5,92 +11,232 @@
 /* .navbar-expand-lg{
 
 } */
-.navbar-brand{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 30px;
+@media(min-width: 576px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .navbar-brand{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .image-avatar{
+        width: 40px;
+        height: 40px;
+    }
+    .cart-icon{
+        width: 35px;
+    }
+    .navbar{
+        list-style-type: none;
+    }
+    .list-nav{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .big-image{
+        width: 400px;
+    }
+    .small-images{
+        width: 90px;
+    }
+    .left-side{
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .right-side{
+        margin-top: 125px;
+        margin-right: 100px;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 20px;
+    }
+    .sneaker-company{
+        color: hsl(26, 100%, 55%);
+        font-weight: 700;
+    }
+    .fall{
+        font-weight: 700;
+    }
+    .percent{
+        background-color: hsl(25, 100%, 94%);
+        color: hsl(26, 100%, 55%);
+        width: 50px;
+        text-align: center;
+        height: 30px;
+    }
+    /* .addSubt{
+        width: 50px;
+        
+    } */
+    /* .border{
+        background-color: white;
+    } */
+    .minus .plus{
+        color: hsl(26, 100%, 55%);
+        background-color: transparent;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+        height: 5px;
+        border-radius: 0.5px solid white;
+        background-color: white;
+    }
+    .addSubtDisplay{
+        border: none;
+        background-color: white;
+        border-radius: 0.5px solid white;
+        width: 40px;
+        text-align: center;
+        
+    }
+    del{
+        font-size: 20px;
+    }
+    .plusMinus{
+        width: 150px;
+        text-align: center;
+    }
+    .addToCart{
+        background-color: hsl(26, 100%, 55%);
+        color: white;
+        border-radius: 5px;
+        border: hsl(26, 100%, 55%);
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+    }
 }
-.image-avatar{
-    width: 40px;
-    height: 40px;
-}
-.cart-icon{
-    width: 35px;
-}
-.navbar{
-    list-style-type: none;
-}
-.list-nav{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 20px;
-}
-.big-image{
-    width: 400px;
-}
-.small-images{
-    width: 90px;
-}
-.left-side{
-    margin-top: 100px;
-    margin-left: 70px;
-}
-.right-side{
-    margin-top: 100px;
-    margin-right: 100px;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 20px;
-}
-.sneaker-company{
-    color: hsl(26, 100%, 55%);
-    font-weight: 700;
-}
-.fall{
-    font-weight: 700;
-}
-.percent{
-    background-color: hsl(25, 100%, 94%);
-    color: hsl(26, 100%, 55%);
-    width: 50px;
-    text-align: center;
-    height: 30px;
-}
-/* .addSubt{
-    width: 50px;
-    
-} */
-/* .border{
-    background-color: white;
-} */
-.minus .plus{
-    color: hsl(26, 100%, 55%);
-    background-color: transparent;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 700;
-    height: 5px;
-    border-radius: 0.5px solid white;
-    background-color: white;
-}
-.addSubtDisplay{
-    border: none;
-    background-color: white;
-    border-radius: 0.5px solid white;
-    width: 40px;
-    text-align: center;
-    
-}
-del{
-    font-size: 20px;
-}
-.plusMinus{
-    width: 150px;
-    text-align: center;
-}
-.addToCart{
-    background-color: hsl(26, 100%, 55%);
-    color: white;
-    border-radius: 5px;
-    border: hsl(26, 100%, 55%);
-}
-.buttons{
-    display: flex;
-    gap: 100px;
+
+
+@media(max-width: 575.98px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* nav{
+        margin-bottom: 0px;
+    } */
+    .navbar-brand{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .image-avatar{
+        width: 40px;
+        height: 40px;
+    }
+    .cart-icon{
+        width: 35px;
+    }
+    .navbar{
+        list-style-type: none;
+    }
+    .list-nav{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .big-image{
+        border-radius: 10px;
+        width: 400px; 
+        margin-top: 10px;
+         
+    }
+    .small-images{
+        width: 90px;
+
+    }
+    .left-side{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto; 
+        display: block;
+        justify-content: center;
+    }
+    .right-side{
+        justify-content: center;
+        margin-top: 40px;
+        /* margin-left: 10px; */
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 20px;
+    }
+    /* .paragraph{
+        text-align: center;
+    } */
+    .sneaker-company{
+        color: hsl(26, 100%, 55%);
+        font-weight: 700;
+    }
+    .fall{
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .These-low-profile{
+        font-size: 16px;
+        margin-top: 20px;
+        opacity: 80%;
+        /* text-align: center; */
+    }
+    .percent{
+        background-color: hsl(25, 100%, 94%);
+        color: hsl(26, 100%, 55%);
+        width: 50px;
+        text-align: center;
+        height: 30px;
+    }
+    /* .addSubt{
+        width: 50px;
+        
+    } */
+    /* .border{
+        background-color: white;
+    } */
+    .minus .plus{
+        color: hsl(26, 100%, 55%);
+        background-color: transparent;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+        height: 5px;
+        border-radius: 0.5px solid white;
+        background-color: white;
+        
+    }
+    .addSubtDisplay{
+        border: none;
+        background-color: white;
+        border-radius: 0.5px solid white;
+        width: 40px;
+        text-align: center;
+        
+    }
+    .prices{
+        display: flex;
+        gap: 80px;
+    }
+    del{
+        font-size: 20px;
+        display: inline;
+    }
+    .plusMinus{
+        width: 300px;
+        text-align: center;
+    }
+    .addToCart{
+        background-color: hsl(26, 100%, 55%);
+        color: white;
+        border-radius: 5px;
+        border: hsl(26, 100%, 55%);
+        display: block;
+        margin-top: 20px;
+    }
+    .buttons{
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
+        width: 400px;
+    }
 }

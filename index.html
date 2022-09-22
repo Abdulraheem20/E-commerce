@@ -22,7 +22,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-light mx-4">
+      <nav class="navbar navbar-expand-lg bg-light mx-4-lg px-3">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -73,8 +73,7 @@
           </div>
           <form class="d-flex gap-3 me-4" role="search">
             <a href="#" class="nav-link">
-              <img class="cart-icon" src="./images/icon-cart.svg" alt="" />
-            </a>
+              <svg class="cart-icon" style="color: white;" width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="#69707D" fill-rule="nonzero"/></svg>           </a>
             <a href="#" class="nav-link">
               <img
                 class="image-avatar"
@@ -103,7 +102,7 @@
       </nav>
     </header>
     <main>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-lg col-12-sm">
             <div class="container left-side">
@@ -111,7 +110,7 @@
                 <img
                   src="./images/image-product-1.jpg"
                   alt=""
-                  class="img-fluid big-image rounded mx-2"
+                  class="big-image rounded mx-2"
                 />
               </div>
               <div class="small-images d-flex mt-4">
@@ -142,16 +141,18 @@
             <div class="container right-side">
               <h3 class="sneaker-company">SNEAKER COMPANY</h3>
               <h1 class="fall">Fall Limited Edition Sneakers</h1>
-              <p>
-                These low-profile sneakers are your perfect casual wear
-                companion. Featuring a durable rubber outer sole, they’ll
-                withstand everythingthe weather can offer.
+              <p class="These-low-profile">
+                <span class="paragraph">These low-profile sneakers are your perfect casual wear</span>
+                <span class="paragraph">companion. Featuring a durable rubber outer sole, they’ll</span>
+                <span class="paragraph">withstand everythingthe weather can offer.</span>
               </p>
-              <div class="d-flex gap-5">
-                <h1>$125.00</h1>
-                <span class="percent rounded">50%</span>
+              <div class="prices">
+                <div class="d-flex gap-4">
+                  <h1>$125.00</h1>
+                  <span class="percent rounded">50%</span>
+                </div>
+                <h3 style="opacity: 50%" class="discount"><del>$250.00</del></h3>
               </div>
-              <h3 style="opacity: 50%"><del>$250.00</del></h3>
             </div>
             <div class="buttons">
               <div class=" ">
@@ -165,7 +166,7 @@
                   </button>
                 </div>
               </div>
-              <button class="addToCart px-4 py-3"> 
+              <button class="addToCart px-5 py-3"> 
                 <span>
                   <svg class="text-light" style="color: white;" width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="#69707D" fill-rule="nonzero"/></svg>
                  <span class="ms-3 fs-5">Add to cart</span>
