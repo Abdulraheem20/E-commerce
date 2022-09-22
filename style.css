@@ -216,6 +216,9 @@
     .prices{
         display: flex;
         gap: 80px;
+        text-align: center;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
     del{
         font-size: 20px;
@@ -238,5 +241,148 @@
         justify-content: center;
         margin-top: 20px;
         width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+
+
+@media(max-width: 575.98px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        
+    }
+    .navbar-brand{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        /* display: flex; */
+        
+    }
+    .image-avatar{
+        width: 40px;
+        height: 40px;
+        float: right;
+    }
+    .cart-icon{
+        width: 35px;
+        float: right;
+    }
+    .navbar{
+        list-style-type: none;
+    }
+    .list-nav{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .big-image{
+        border-radius: 10px;
+        width: 300px; 
+        margin-top: 10px;
+         
+    }
+    .small-images{
+        width: 200px;
+        display: grid!important;
+        margin-top: 10px;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .left-side{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto; 
+        display: grid;
+    }
+    .right-side{
+        justify-content: center;
+        margin-top: 40px;
+        /* margin-left: 10px; */
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 20px;
+    }
+    /* .paragraph{
+        text-align: center;
+    } */
+    .sneaker-company{
+        color: hsl(26, 100%, 55%);
+        font-weight: 700;
+    }
+    .fall{
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .These-low-profile{
+        font-size: 16px;
+        margin-top: 20px;
+        opacity: 80%;
+        /* text-align: center; */
+    }
+    .percent{
+        background-color: hsl(25, 100%, 94%);
+        color: hsl(26, 100%, 55%);
+        width: 50px;
+        text-align: center;
+        height: 30px;
+    }
+    .minus .plus{
+        color: hsl(26, 100%, 55%);
+        background-color: transparent;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-weight: 700;
+        height: 5px;
+        border-radius: 0.5px solid white;
+        background-color: white;
+        
+    }
+    .addSubtDisplay{
+        border: none;
+        background-color: white;
+        border-radius: 0.5px solid white;
+        width: 40px;
+        text-align: center;
+        
+    }
+    .prices{
+        display: block;
+        gap: 80px;
+        
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    del{
+        font-size: 20px;
+    }
+    .plusMinus{
+        width: 300px;
+        text-align: center;
+    }
+    .addToCart{
+        background-color: hsl(26, 100%, 55%);
+        color: white;
+        border-radius: 5px;
+        border: hsl(26, 100%, 55%);
+        display: block;
+        margin-top: 20px;
+    }
+    .buttons{
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
