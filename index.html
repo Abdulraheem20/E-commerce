@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light mx-4">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">sneakers</a>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll list-nav"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Collections</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Men</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex gap-3 me-4" role="search">
+            <a href="#" class="nav-link">
+              <img class="cart-icon" src="./images/icon-cart.svg" alt="" />
+            </a>
+            <a href="#" class="nav-link">
+              <img
+                class="image-avatar"
+                src="./images/image-avatar.png"
+                alt=""
+              />
+            </a>
+          </form>
+          <!-- <ul class="nav d-flex gap-3">
+              <li class="nav-item ">
+                  <a href="#" class="nav-link">
+                    <img class="cart-icon" src="./images/icon-cart.svg" alt="" />
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img
+                    class="image-avatar"
+                    src="./images/image-avatar.png"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul> -->
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg col-12-sm">
+            <div class="container left-side">
+              <div class="images-big">
+                <img
+                  src="./images/image-product-1.jpg"
+                  alt=""
+                  class="img-fluid big-image rounded mx-2"
+                />
+              </div>
+              <div class="small-images d-flex mt-4">
+                <img
+                  class="img-fluid rounded small-images mx-2"
+                  src="./images/image-product-1-thumbnail.jpg"
+                  alt=""
+                />
+                <img
+                  class="img-fluid rounded small-images mx-2"
+                  src="./images/image-product-2-thumbnail.jpg"
+                  alt=""
+                />
+                <img
+                  class="img-fluid rounded small-images mx-2"
+                  src="./images/image-product-3-thumbnail.jpg"
+                  alt=""
+                />
+                <img
+                  class="img-fluid rounded small-images mx-2"
+                  src="./images/image-product-4-thumbnail.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="container right-side">
+              <h3 class="sneaker-company">SNEAKER COMPANY</h3>
+              <h1 class="fall">Fall Limited Edition Sneakers</h1>
+              <p>
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they’ll
+                withstand everythingthe weather can offer.
+              </p>
+              <div class="d-flex gap-5">
+                <h1>$125.00</h1>
+                <span class="percent rounded">50%</span>
+              </div>
+              <h3 style="opacity: 50%"><del>$250.00</del></h3>
+            </div>
+            <div class="buttons">
+              <div class="container addSubt d-flex">
+                <div class="border rounded bg-light">
+                  <button class="minus btn" style="color: hsl(26, 100%, 55%)">
+                    <h1>-</h1>
+                  </button>
+                  <input type="text" class="addSubtDisplay" />
+                  <button class="plus btn" style="color: hsl(26, 100%, 55%)">
+                    <h1>+</h1>
+                  </button>
+                </div>
+              </div>
+              <button class="addToCart d-flex gap-3 px-5 pt-3"> 
+                <svg style="color: white;" width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="#69707D" fill-rule="nonzero"/></svg>
+                 <p>Add to cart</p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
+</html>
