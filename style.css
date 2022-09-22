@@ -80,6 +80,10 @@
 del{
     font-size: 20px;
 }
+.plusMinus{
+    width: 150px;
+    text-align: center;
+}
 .addToCart{
     background-color: hsl(26, 100%, 55%);
     color: white;
@@ -88,5 +92,5 @@ del{
 }
 .buttons{
     display: flex;
-    row-gap: 5px;
+    gap: 100px;
 }
