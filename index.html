@@ -73,7 +73,20 @@
           </div>
           <form class="d-flex gap-3 me-4" role="search">
             <a href="#" class="nav-link">
-              <svg class="cart-icon" style="color: white;" width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="#69707D" fill-rule="nonzero"/></svg>           </a>
+              <svg
+                class="cart-icon"
+                style="color: white"
+                width="22"
+                height="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                  fill="#69707D"
+                  fill-rule="nonzero"
+                />
+              </svg>
+            </a>
             <a href="#" class="nav-link">
               <img
                 class="image-avatar"
@@ -110,28 +123,28 @@
                 <img
                   src="./images/image-product-1.jpg"
                   alt=""
-                  class="big-image rounded mx-2"
+                  class="big-image rounded mx-2 image-big"
                 />
               </div>
-              <div class="small-images d-flex mt-4">
+              <div class="small-images d-flex mt-4 ">
                 <img
-                  class="img-fluid rounded small-images mx-2"
-                  src="./images/image-product-1-thumbnail.jpg"
+                  class="img-fluid rounded small-image mx-2"
+                  src="./images/image-product-1.jpg"
                   alt=""
                 />
                 <img
-                  class="img-fluid rounded small-images mx-2"
-                  src="./images/image-product-2-thumbnail.jpg"
+                  class="img-fluid rounded small-image mx-2"
+                  src="./images/image-product-2.jpg"
                   alt=""
                 />
                 <img
-                  class="img-fluid rounded small-images mx-2"
-                  src="./images/image-product-3-thumbnail.jpg"
+                  class="img-fluid rounded small-image mx-2"
+                  src="./images/image-product-3.jpg"
                   alt=""
                 />
                 <img
-                  class="img-fluid rounded small-images mx-2"
-                  src="./images/image-product-4-thumbnail.jpg"
+                  class="img-fluid rounded small-image mx-2"
+                  src="./images/image-product-4.jpg"
                   alt=""
                 />
               </div>
@@ -142,16 +155,25 @@
               <h3 class="sneaker-company">SNEAKER COMPANY</h3>
               <h1 class="fall">Fall Limited Edition Sneakers</h1>
               <p class="These-low-profile">
-                <span class="paragraph">These low-profile sneakers are your perfect casual wear</span>
-                <span class="paragraph">companion. Featuring a durable rubber outer sole, they’ll</span>
-                <span class="paragraph">withstand everythingthe weather can offer.</span>
+                <span class="paragraph"
+                  >These low-profile sneakers are your perfect casual wear</span
+                >
+                <span class="paragraph"
+                  >companion. Featuring a durable rubber outer sole,
+                  they’ll</span
+                >
+                <span class="paragraph"
+                  >withstand everythingthe weather can offer.</span
+                >
               </p>
               <div class="prices">
                 <div class="d-flex gap-4">
                   <h1>$125.00</h1>
                   <span class="percent rounded">50%</span>
                 </div>
-                <h3 style="opacity: 50%" class="discount"><del>$250.00</del></h3>
+                <h3 style="opacity: 50%" class="discount">
+                  <del>$250.00</del>
+                </h3>
               </div>
             </div>
             <div class="buttons">
@@ -160,16 +182,28 @@
                   <button class="minus btn" style="color: hsl(26, 100%, 55%)">
                     <h1>-</h1>
                   </button>
-                  <input type="text" class="addSubtDisplay" />
+                  <span class="fs-3 display">0</span>
                   <button class="plus btn" style="color: hsl(26, 100%, 55%)">
                     <h1>+</h1>
                   </button>
                 </div>
               </div>
-              <button class="addToCart px-5 py-3"> 
+              <button class="addToCart px-5 py-3">
                 <span>
-                  <svg class="text-light" style="color: white;" width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="#69707D" fill-rule="nonzero"/></svg>
-                 <span class="ms-3 fs-5">Add to cart</span>
+                  <svg
+                    class="text-light"
+                    style="color: white"
+                    width="22"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                      fill="#69707D"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                  <span class="ms-3 fs-5">Add to cart</span>
                 </span>
               </button>
             </div>
@@ -179,6 +213,7 @@
     </main>
   </body>
   <!-- JavaScript Bundle with Popper -->
+  <script src="./script.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

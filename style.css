@@ -40,7 +40,7 @@
     .big-image{
         width: 400px;
     }
-    .small-images{
+    .small-image{
         width: 90px;
     }
     .left-side{
@@ -146,7 +146,7 @@
         margin-top: 10px;
          
     }
-    .small-images{
+    .small-image{
         width: 90px;
 
     }
@@ -247,6 +247,9 @@
 }
 
 
+.opaRm{
+    opacity: .2;
+}
 
 
 
