@@ -251,7 +251,9 @@
     opacity: .2;
 }
 
-
+.opa{
+    opacity: 1;
+}
 
 
 @media(max-width: 575.98px){
